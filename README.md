@@ -1,6 +1,6 @@
 # Ujjawal's Portfolio
 
-![Portfolio Preview](public/og.png)
+![Portfolio Preview] Coming Soon...
 
 A modern, responsive portfolio website built with React, showcasing my skills, projects, and experience as a developer.
 
