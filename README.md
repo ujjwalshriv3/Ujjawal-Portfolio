@@ -93,14 +93,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [React Spring](https://www.react-spring.io/)
 - [Spline](https://spline.design/)
 
-## 📬 Contact
-
-- **Name**: Ujjawal
-- **Email**: your.email@example.com
-- **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-
----
-
 Made with ❤️ by Ujjawal
