@@ -130,9 +130,9 @@ const educationData = [
     points: [
       "College: MERI-CET",
       "Specialisation: B.tech (Computer Science and Engineering)",
-      "CGPA : 8.78 ",
+      "CGPA: 8.78",
       "Class Topper in Sem 7 or 8 of the CSE Department",
-      "i learn Short-Term Course on Remote Sensing & GIS (MERI College in collaboration with IIT Bombay)",
+      "Completed a Short-Term Course on Remote Sensing & GIS (MERI College in collaboration with IIT Bombay)",
       "Completed multiple projects with excellence.",
     ],
   },

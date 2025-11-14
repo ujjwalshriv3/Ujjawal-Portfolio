@@ -6,12 +6,14 @@ import { motion } from "framer-motion";
 import { Flipper, Flipped } from 'react-flip-toolkit';
 import { useMediaQuery } from 'react-responsive';
 import useSound from 'use-sound';
+import RedCursorBackground from './RedCursorBackground';
 
 import bgref from '../../../components/Assest_Used/textures/Bg_Shades/CubeBgAbout.png';
 import soundeffect1 from '../../../components/Assest_Used/Sounds/base.mp3';
 import soundeffect2 from '../../../components/Assest_Used/Sounds/select-click.wav';
 import HireMESvg from '../ExtraComponents/HireMe';
 import TextSpan from '../ExtraComponents/TextSpan';
+// GIF is now in the public folder
 
 const textVariant = (delay) => ({
   hidden: { y: -50, opacity: 0 },
@@ -97,12 +99,29 @@ function Home() {
   
   return (
     <div style={HomePcContainer}>
-      { !isBigPC && (
-        <Spline style={spline_model} scene="https://prod.spline.design/j2e7Alo5WLeGiNyw/scene.splinecode" />
-      )}
-      { !isShortPC && (
-        <Spline style={spline_model} scene="https://prod.spline.design/q1ibVol4H9yif8LF/scene.splinecode" /> 
-      )}
+      <RedCursorBackground />
+      <div style={{
+        position: 'absolute',
+        right: '5%',
+        top: '50%',
+        transform: 'translateY(-50%)',
+        width: isShortPC ? '40%' : '35%',
+        maxWidth: '600px',
+        zIndex: 2,
+        pointerEvents: 'none'
+      }}>
+        <img 
+          src="/images/student-with-laptop.gif" 
+          alt="Student with laptop" 
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'contain',
+            borderRadius: '10px',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
+          }} 
+        />
+      </div>
       <div style={division_overlay}>
         <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
           <div>

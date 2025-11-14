@@ -203,15 +203,30 @@ function HomeP2() {
 
   return (
     <HomePcContainer>
-      { !isBigPC && (
-        <Spline ref={ref1} style={{...spline_model, opacity: inView1 ? 1 : 0, transform: inView1 ? 'translateY(0)' : 'translateY(-50px)', transition: 'opacity 1.25s ease-out 0.5s, transform 1.25s ease-out 0.5s'}} scene="https://prod.spline.design/0Rl3xHGfXkSgHWnu/scene.splinecode" />
-      )}
-      { !isShortPC && (
-        <Spline ref={ref1} style={{...spline_model, opacity: inView1 ? 1 : 0, transform: inView1 ? 'translateY(0)' : 'translateY(-50px)', transition: 'opacity 1.25s ease-out 0.5s, transform 1.25s ease-out 0.5s'}} scene="https://prod.spline.design/rnK7SZJPgrRw-DL9/scene.splinecode" />
-      )}
-
-      {/* This Spline Model has slightly different lighting with Gloss Shade with more -x axis */}
-      {/* <Spline ref={ref1} style={{...spline_model, opacity: inView1 ? 1 : 0, transform: inView1 ? 'translateY(0)' : 'translateY(-50px)', transition: 'opacity 1.25s ease-out 0.7s, transform 1.25s ease-out 0.7s'}} scene="https://prod.spline.design/vyBJML2ZgR2CVUbJ/scene.splinecode" /> */}
+      <div style={{
+        position: 'absolute',
+        left: '1%',
+        top: '50%',
+        transform: 'translateY(-50%)',
+        width: isShortPC ? '50%' : '40%',
+        maxWidth: '600px',
+        zIndex: 2,
+        opacity: inView1 ? 1 : 0,
+        transition: 'opacity 1.25s ease-out 0.5s',
+        pointerEvents: 'none'
+      }}>
+        <img 
+          src="/images/Live%20chatbot.gif" 
+          alt="Live Chatbot" 
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'contain',
+            borderRadius: '10px',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
+          }} 
+        />
+      </div>
 
       <div className="Test" style={{ fontSize: isTablet ? '2.8rem' : isPcshort ? '3.8rem' : '4.8rem', textAlign: 'center', zIndex: '2', marginRight: isTablet ? '1.5rem' : isPcshort ? '2.8rem' : '3rem', marginTop: isPcshort ? '5rem' : '10rem', marginBottom: isPcshort ? '0.5rem' : '2rem',  opacity: inView1 ? 1 : 0, transform: inView1 ? 'translateY(0)' : 'translateY(-50px)', transition: `opacity 1.25s ease-out 0.8s, transform 1.25s ease-out 0.8s`}}>
         Portfolio Overview

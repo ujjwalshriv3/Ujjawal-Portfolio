@@ -143,16 +143,6 @@ function Home() {
     <div style={homePcContainer}>
       <Spline style={splineModel} scene="https://prod.spline.design/QhiTZ1nWiX-4y93c/scene.splinecode" />
       {/* <Spline style={splineModel} scene="https://prod.spline.design/yF0tNNwe0CsgeJWs/scene.splinecode" /> */}
-      {/* <div style={rightSideContainer}> 
-        <motion.div variants={textVariant(2.5)} initial="hidden" animate="show"> 
-          <div className="home3" style={{ textAlign: 'center'}}>
-            Show-Casing
-          </div> 
-        </motion.div>
-        <motion.div variants={textVariant(4)} initial="hidden" animate="show">
-          <AnimatedListDemo />
-        </motion.div>
-      </div> */}
       <div className='AboutCard'>
       <motion.div variants={textVariant(1)} initial="hidden" animate="show"> 
         <AboutCardSty />
