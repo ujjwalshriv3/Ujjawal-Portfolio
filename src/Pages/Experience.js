@@ -121,7 +121,7 @@ const experiences = [
   {
     date: "July 2025 - November 2025",
     company_name: "Galipia Molecules Pvt Ltd",
-    title: "Ai full stack Automation Engineer",
+    title: "AI Full Stack Automation Developer",
     iconBg: "#fff",
     icon: curious,
     points: [

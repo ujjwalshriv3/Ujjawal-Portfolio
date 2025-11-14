@@ -202,7 +202,7 @@ function Home() {
                 onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'} onClick={playSound2}></a>
               </motion.div>
               <motion.div variants={textVariant(4.5)} initial="hidden" animate="show">
-                <a href="mailto:ujjawalsaini0007@gmail.com fa-envelope fa-beat-fade" target="_blank" rel="noopener noreferrer"
+                <a href="mailto:ujjawalshrivastava698@gmail.com fa-envelope fa-beat-fade" target="_blank" rel="noopener noreferrer"
                 onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.2)'}
                 onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'} onClick={playSound2}></a>
               </motion.div>

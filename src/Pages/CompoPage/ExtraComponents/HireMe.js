@@ -42,7 +42,7 @@ const RotatingSVGWithButton = () => {
         </text>
       </svg>
       <a 
-        href="mailto:Ujjawalsaini0007@gmail.com" 
+        href="mailto:ujjawalshrivastava698@gmail.com" 
         style={{
           position: 'absolute',
           width: '65px',

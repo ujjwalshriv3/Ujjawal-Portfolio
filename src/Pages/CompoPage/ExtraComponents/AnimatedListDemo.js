@@ -48,7 +48,7 @@ const notifications = [
   },
   {
     name: "Contact",
-    description: "Get in touch at Ujjawalsaini0007@gmail.com",
+    description: "Get in touch at ujjawalshrivastava698@gmail.com",
     time: "now",
     icon: "📞",
     color: "#fff",
