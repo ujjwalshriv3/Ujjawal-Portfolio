@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Spline from '@splinetool/react-spline';
 import { Typewriter } from "react-simple-typewriter";
 import { useSpring, animated } from '@react-spring/web';
@@ -129,7 +129,15 @@ function Home() {
               variants={textVariant(0.2)}
               initial="hidden"
               animate="show"
-              style={{ fontFamily: "'Bodoni Moda', serif", fontSize: isShortPC ? '6.2rem' : 'none', marginTop: isShortPC ? '-3.7rem' : 'none' , marginBottom: isShortPC ? '2rem' : 'none'  }}
+              style={{ 
+                fontFamily: "'Playfair Display', serif",
+                fontSize: isShortPC ? '8rem' : 'none',
+                marginTop: isShortPC ? '-3.7rem' : 'none',
+                marginBottom: isShortPC ? '2rem' : 'none',
+                fontWeight: 700,
+                lineHeight: '1',
+                textShadow: '1px 1px 2px rgba(0,0,0,0.3)'
+              }}
               className={`${styles.heroHeadText} text-white`}
             >
               {/* Hi, I'm <span className="text-[#e73e0d]">Ujjawal</span> */}
@@ -150,7 +158,7 @@ function Home() {
               initial="hidden"
               animate="show"
             >
-            <p className={`${styles.heroSubText} mt-2 text-white-100`} style={{ fontFamily: "'Vidaloka', serif", fontSize: isShortPC ? '2.8rem' : 'none', marginTop: isShortPC ? '-3rem' : 'none' }}>
+            <p className={`${styles.heroSubText} text-white-100`} style={{ fontFamily: "'Vidaloka', serif", fontSize: isShortPC ? '3.2rem' : 'none', marginTop: isShortPC ? '0.5rem' : '1rem', marginBottom: '1.5rem' }}>
               {/* Designing and developing  <br /> top-notch Web and Mobile Apps */}
               I Craft exceptional & AI innovative <br /> Web Designing and developing
             </p>

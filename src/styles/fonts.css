@@ -1,0 +1,67 @@
+/* Spaceboards Font */
+@font-face {
+  font-family: 'Spaceboards';
+  src: url('../../public/fonts/Spaceboards.otf') format('opentype');
+  font-display: swap;
+}
+
+/* Bodoni Moda Font */
+@font-face {
+  font-family: 'Bodoni Moda';
+  src: url('../../public/fonts/BodoniModa-VariableFont_opsz,wght.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* Pinyon Script Font */
+@font-face {
+  font-family: 'Pinyon Script';
+  src: url('../../public/fonts/PinyonScript-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* Specific section headings */
+.about-heading,                /* About Me */
+.testimonials-heading,         /* Testimonials */
+.portfolio-overview,           /* Portfolio Overview */
+.skills-heading,               /* My Technical Skills */
+.education-heading,            /* My Education & Qualification */
+.works-heading,                /* My Innovative Development Works */
+.experience-heading,           /* My Technical Experience */
+.contact-heading {             /* Contact Me Now */
+  font-family: 'Spaceboards', cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* For any additional styling on these specific headings */
+.about-heading {
+  /* Custom styles for About Me */
+}
+
+.testimonials-heading {
+  /* Custom styles for Testimonials */
+}
+
+.portfolio-overview {
+  /* Custom styles for Portfolio Overview */
+}
+
+.skills-heading {
+  /* Custom styles for My Technical Skills */
+}
+
+.education-heading {
+  /* Custom styles for My Education & Qualification */
+}
+
+.works-heading {
+  /* Custom styles for My Innovative Development Works */
+}
+
+experience-heading {
+  /* Custom styles for My Technical Experience */
+}
+
+.contact-heading {
+  /* Custom styles for Contact Me Now */
+}
