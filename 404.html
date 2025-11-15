@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Page Not Found</title>
+    <title>Redirecting...</title>
     <script>
-      // Redirect to your app's 404 page
-      sessionStorage.redirect = location.href;
-      window.location.replace("https://ujjwalshriv3.github.io/Ujjawal-Portfolio/404");
+        // Store the original URL
+        const originalPath = window.location.pathname + window.location.search;
+        // Redirect to the root with the original path as a query parameter
+        window.location.replace(`/Ujjawal-Portfolio/?from=${encodeURIComponent(originalPath)}`);
     </script>
-  </head>
-  <body>
-    <p>Redirecting to custom 404 page...</p>
-  </body>
+</head>
+
+<body>
+    <p>Redirecting to portfolio...</p>
+</body>
+
 </html>
