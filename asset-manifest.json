@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ujjawal-Portfolio/static/css/main.b96b18dc.css",
-    "main.js": "/Ujjawal-Portfolio/static/js/main.55d6f491.js",
+    "main.css": "/Ujjawal-Portfolio/static/css/main.68c694a3.css",
+    "main.js": "/Ujjawal-Portfolio/static/js/main.f9aac054.js",
     "static/js/885.04677621.chunk.js": "/Ujjawal-Portfolio/static/js/885.04677621.chunk.js",
     "static/js/312.52c2f608.chunk.js": "/Ujjawal-Portfolio/static/js/312.52c2f608.chunk.js",
     "static/js/653.b50e2a88.chunk.js": "/Ujjawal-Portfolio/static/js/653.b50e2a88.chunk.js",
@@ -35,7 +35,9 @@
     "static/media/CubeBgAbout.png": "/Ujjawal-Portfolio/static/media/CubeBgAbout.1137c8cdd8f0ff2f6186.png",
     "static/media/bootstrap-icons.woff?": "/Ujjawal-Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/img.png": "/Ujjawal-Portfolio/static/media/img.6635cd44b0f1467c80f5.png",
+    "static/media/BodoniModa-VariableFont_opsz,wght.ttf": "/Ujjawal-Portfolio/static/media/BodoniModa-VariableFont_opsz,wght.02c93cf452fe2dc74f65.ttf",
     "static/media/Gen-ai.png": "/Ujjawal-Portfolio/static/media/Gen-ai.75c017cff52cccdd138f.png",
+    "static/media/PinyonScript-Regular.ttf": "/Ujjawal-Portfolio/static/media/PinyonScript-Regular.8efae8b8307604f60194.ttf",
     "static/media/College_1.png": "/Ujjawal-Portfolio/static/media/College_1.c4734a5dfb039fdc3bae.png",
     "static/media/USPortfolio.png": "/Ujjawal-Portfolio/static/media/USPortfolio.20b9ed503d8b68e3449d.png",
     "static/media/bootstrap-icons.woff2?": "/Ujjawal-Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
@@ -59,9 +61,10 @@
     "static/media/Us_LogoMain.png": "/Ujjawal-Portfolio/static/media/Us_LogoMain.1028dc4f5bac58f8fa89.png",
     "static/media/github.png": "/Ujjawal-Portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "static/media/US_LogoTransparent.png": "/Ujjawal-Portfolio/static/media/US_LogoTransparent.e20371c981bee51da326.png",
+    "static/media/Spaceboards.otf": "/Ujjawal-Portfolio/static/media/Spaceboards.e850ddbaf9167e935874.otf",
     "index.html": "/Ujjawal-Portfolio/index.html",
-    "main.b96b18dc.css.map": "/Ujjawal-Portfolio/static/css/main.b96b18dc.css.map",
-    "main.55d6f491.js.map": "/Ujjawal-Portfolio/static/js/main.55d6f491.js.map",
+    "main.68c694a3.css.map": "/Ujjawal-Portfolio/static/css/main.68c694a3.css.map",
+    "main.f9aac054.js.map": "/Ujjawal-Portfolio/static/js/main.f9aac054.js.map",
     "885.04677621.chunk.js.map": "/Ujjawal-Portfolio/static/js/885.04677621.chunk.js.map",
     "312.52c2f608.chunk.js.map": "/Ujjawal-Portfolio/static/js/312.52c2f608.chunk.js.map",
     "653.b50e2a88.chunk.js.map": "/Ujjawal-Portfolio/static/js/653.b50e2a88.chunk.js.map",
@@ -75,7 +78,7 @@
     "23.b1bd107e.chunk.js.map": "/Ujjawal-Portfolio/static/js/23.b1bd107e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b96b18dc.css",
-    "static/js/main.55d6f491.js"
+    "static/css/main.68c694a3.css",
+    "static/js/main.f9aac054.js"
   ]
 }
