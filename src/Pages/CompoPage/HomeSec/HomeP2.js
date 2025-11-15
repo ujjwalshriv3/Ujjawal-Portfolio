@@ -14,7 +14,8 @@ const isPcshort = window.innerWidth <= 1330;
 const spaceboardsFont = `
   @font-face {
     font-family: 'Spaceboards';
-    src: url('/fonts/Spaceboards.otf') format('opentype');
+    src: url('${process.env.PUBLIC_URL}/fonts/Spaceboards.otf') format('opentype');
+    font-display: swap;
   }
 `;
 
@@ -216,7 +217,7 @@ function HomeP2() {
         pointerEvents: 'none'
       }}>
         <img 
-          src="/images/Live%20chatbot.gif" 
+          src={`${process.env.PUBLIC_URL}/images/Live%20chatbot.gif`} 
           alt="Live Chatbot" 
           style={{
             width: '100%',

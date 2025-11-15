@@ -111,7 +111,7 @@ function Home() {
         pointerEvents: 'none'
       }}>
         <img 
-          src="/images/student-with-laptop.gif" 
+          src={`${process.env.PUBLIC_URL}/images/student-with-laptop.gif`} 
           alt="Student with laptop" 
           style={{
             width: '100%',
