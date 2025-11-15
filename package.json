@@ -1,6 +1,7 @@
 {
   "name": "ujjawal-portfolio",
   "version": "0.1.4",
+  "homepage": "https://ujjwalshriv3.github.io/Ujjawal-Portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -56,6 +57,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
